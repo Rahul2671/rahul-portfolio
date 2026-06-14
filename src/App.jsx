@@ -11,12 +11,15 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
+import ScrollToHash from "./components/ScrollToHash";
 
 function App(){
 
 return (
 
   <BrowserRouter>
+
+  <ScrollToHash/>
 
   <Routes>
 

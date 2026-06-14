@@ -171,13 +171,13 @@ mx-auto
 
 
 <Link
-to="/"
+to="/#projects"
 className="
 text-purple-300
 hover:text-white
 "
 >
-← Back Home
+← Back Projects
 </Link>
 
 
