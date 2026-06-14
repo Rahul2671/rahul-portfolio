@@ -11,7 +11,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
-import AIAssistant from './components/AIAssistant'
 
 function App(){
 
@@ -36,8 +35,6 @@ return (
   <Experience/>
   <Contact/>
   <Footer/>
-
-  <AIAssistant/>
 
   </>
   }
