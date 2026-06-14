@@ -79,7 +79,7 @@ const Hero = () => {
             </a>
             
             {/* Secondary Button - Glassmorphism style */}
-            <a href="/Rahul_Resume.pdf" download className=" px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md">Download my Resume
+            <a href="/RAHUL_Resume.pdf" download className=" px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md">Download my Resume
             </a>
           </div>
         </div>
