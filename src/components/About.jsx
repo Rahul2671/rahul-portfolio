@@ -42,10 +42,10 @@ const About = () => {
           
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4">About Me</h2>
           <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-purple-100">
-            <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Computer Science Engineering student at VIT Chennai  with a strong interest in Artificial Intelligence, Machine Learning, Full-Stack Development, IoT Security, and Open Source Software. I have</span> 
-            worked on research and development projects including Hyperparameter Optimization in the FOSSEE Toolbox, Lightweight Machine Learning Frameworks for IoT Security, and Automated Authenticity Verification Systems for Ancient Tamil Inscriptions.
+            <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Computer Science Engineering student at VIT Chennai passionate about solving real-world problems using data, Artificial Intelligence, and Machine Learning. I have</span> 
+            {" "}built scalable backend systems, developed machine learning solutions, and applied data analytics to research and real-world projects, and developed intelligent applications spanning cultural heritage verification, IoT security, and AI-powered developer tools.
 
-            Currently exploring Generative AI, scalable web applications, and intelligent software systems.
+            I am committed to continuous learning in data science, backend engineering, and applied AI to deliver measurable impact. AWS EC2 Deployment for AI Applications
           </p>
 
           {/* Horizontal Skills Row (Transparent & Large) */}

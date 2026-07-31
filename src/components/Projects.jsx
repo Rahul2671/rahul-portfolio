@@ -6,6 +6,54 @@ const Projects = () => {
 
     {
       year: "2026",
+      title: "PinIt",
+      description:
+        "Built a full-stack community notice board platform with smart notifications, keyword subscriptions, and team finder features for campus communities",
+      stack:
+        "React, Node.js, Express, PostgreSQL, JWT",
+      impact:
+        "Streamlines community communication with data-driven engagement and personalized alerts.",
+      slug: "pinit"
+    },
+
+    {
+      year: "2026",
+      title: "DevForge AI",
+      description:
+        "Collaborated in a 2-member team to build an AI-powered developer platform that lets users upload GitHub repositories and chat with the entire codebase using RAG and LLMs. Contributed to the FastAPI backend, REST APIs, and AI service integration.",
+      stack:
+        "Python, FastAPI, RAG, Gemini API, LangChain, LLM Applications",
+      impact:
+        "Enhances developer productivity through intelligent automation and AI-assisted tooling.",
+      slug: "devforge-ai"
+    },
+
+    {
+      year: "2025",
+      title: "TrustPay",
+      description:
+        "Collaborated in a team to develop a secure payment platform. Contributed to backend API development, authentication, and database integration for transaction processing, user verification, and financial data management.",
+      stack:
+        "Python, XGBoost, Random Forest, FastAPI, PostgreSQL, REST APIs",
+      impact:
+        "Delivers reliable payment workflows with secure backend architecture and data integrity.",
+      slug: "trustpay"
+    },
+
+    {
+      year: "2025",
+      title: "BharatVerse",
+      description:
+        "Collaborated in a multidisciplinary team to build an AI-powered platform leveraging Gemini APIs for intelligent cultural knowledge retrieval, semantic search, and content processing. Contributed to frontend development and AI integration.",
+      stack:
+        "React, Python, Gemini API, Streamlit, PostgreSQL",
+      impact:
+        "Combines AI and analytics to support digital preservation of cultural heritage.",
+      slug: "bharatverse"
+    },
+
+    {
+      year: "2026",
       title: "Context Drift Validator",
       description:
         "Built a validation framework to identify context inconsistencies in Zero Trust IoT security systems.",
@@ -15,7 +63,6 @@ const Projects = () => {
         "Improves reliability of security workflows in intelligent networks.",
       slug: "context-drift-validator"
     },
-
 
     {
       year: "2025",
@@ -29,7 +76,6 @@ const Projects = () => {
       slug: "authenticity-verification-system"
     },
 
-
     {
       year: "2025",
       title: "Lightweight ML Framework for IoT Security",
@@ -41,20 +87,6 @@ const Projects = () => {
         "Focused on scalable and efficient intelligent security solutions.",
       slug: "iot-security-framework"
     },
-
-
-    {
-      year: "2025",
-      title: "AI Powered DAO for Decentralized Talent Funding",
-      description:
-        "Explored decentralized AI-driven approaches for supporting talent funding ecosystems using intelligent decision systems.",
-      stack:
-        "AI, Blockchain, Web3",
-      impact:
-        "Combines AI systems with decentralized platforms for future talent ecosystems.",
-      slug: "ai-powered-dao"
-    },
-
 
     {
       year: "2025",

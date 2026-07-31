@@ -85,7 +85,7 @@ const Services = () => {
             Areas of Expertise
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-5xl font-black text-gray-900 leading-[1.1] mb-6 tracking-tight relative">
-            Building intelligent systems through software engineering, machine learning, and research-driven innovation
+            Turning data, machine learning, and backend engineering into intelligent real-world solutions
             {/* Hand-drawn arrow */}
             <svg className="absolute -bottom-10 right-10 w-12 h-12 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" className="hidden" />
@@ -173,8 +173,8 @@ const Services = () => {
           
           <TagCard 
             number="01"
-            title="Artificial Intelligence"
-            text="Building machine learning and AI-powered systems focused on automation, decision support, and real-world problem solving."
+            title="Data Science & Analytics"
+            text="Applying Python, SQL, and statistical methods to clean, analyze, and visualize data for actionable insights and informed decision-making."
             className="md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6"
             aosType="fade-left"
             aosDelay="100"
@@ -184,8 +184,8 @@ const Services = () => {
 
           <TagCard 
             number="02"
-            title="Full Stack Development"
-            text="Developing scalable web applications using modern frontend and backend technologies with a focus on performance and usability."
+            title="Artificial Intelligence"
+            text="Building machine learning and LLM-powered systems focused on automation, intelligent APIs, and real-world problem solving."
             className="md:absolute md:top-[450px] md:left-[5%] lg:left-[20%] -rotate-2 md:-rotate-6"
             aosType="fade-right"
             aosDelay="200"
@@ -195,8 +195,8 @@ const Services = () => {
 
           <TagCard 
             number="03"
-            title="Research & Innovation"
-            text="Working on research-oriented projects including IoT security, cultural heritage preservation, and intelligent software systems."
+            title="Backend Engineering"
+            text="Designing scalable APIs and backend services with FastAPI, Django, and cloud technologies to support data-driven applications."
             className="md:absolute md:top-[700px] md:right-[5%] lg:right-[15%] rotate-1 md:rotate-3"
             aosType="fade-left"
             aosDelay="300"
@@ -206,8 +206,8 @@ const Services = () => {
 
           <TagCard 
             number="04"
-            title="Open Source"
-            text="Contributing to open-source ecosystems through internship projects, experimentation, and collaborative software development."
+            title="Research & Innovation"
+            text="Working on research-oriented projects in IoT security, cultural heritage preservation, and applied machine learning systems."
             className="md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="400"

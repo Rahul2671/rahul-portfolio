@@ -4,48 +4,53 @@ const AIDashboard = () => {
 
   const stack = {
 
-    Languages: [
-      "C",
-      "C++",
+    Programming: [
       "Python",
+      "SQL",
       "Java",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "R"
+      "C++"
+    ],
+
+    "Data Science": [
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Statistics",
+      "Data Cleaning",
+      "Data Visualization"
+    ],
+
+    "Artificial Intelligence": [
+      "LLM Applications",
+      "Prompt Engineering",
+      "FastAPI",
+      "Gemini API"
+    ],
+
+    Backend: [
+      "FastAPI",
+      "Django",
+      "Flask",
+      "Node.js"
+    ],
+
+    Databases: [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "SQLite"
+    ],
+
+    "Cloud & Tools": [
+      "AWS",
+      "Git",
+      "Linux"
     ],
 
     Frontend: [
       "React",
       "Tailwind CSS",
       "Bootstrap"
-    ],
-
-    Backend: [
-      "Node.js",
-      "Django",
-      "FastAPI",
-      "Flask"
-    ],
-
-    Databases: [
-      "MongoDB",
-      "PostgreSQL",
-      "MySQL",
-      "SQLite"
-    ],
-
-    Tools: [
-      "Git",
-      "Linux",
-      "Scilab"
-    ], 
-
-    Concepts: [
-       "Data Structures",
-       "Algorithms",
-       "OOP",
-       "Problem Solving"
     ]
 
   };
@@ -171,7 +176,7 @@ const AIDashboard = () => {
                 <p>
                   Role:
                   <span className="text-purple-400">
-                    {" "}AI Engineer
+                    {" "}Aspiring Data Scientist
                   </span>
                 </p>
 
@@ -179,7 +184,7 @@ const AIDashboard = () => {
                 <p>
                   Focus:
                   <span className="text-purple-400">
-                    {" "}Full Stack + GenAI
+                    {" "}Data Science + AI + Backend
                   </span>
                 </p>
 
@@ -193,7 +198,7 @@ const AIDashboard = () => {
 
 
                 <p className="text-green-400 mt-5">
-                  ● Building intelligent software
+                  ● Building data-driven intelligent systems
                 </p>
 
 
@@ -233,19 +238,19 @@ const AIDashboard = () => {
               >
 
                 <li>
-                  → Generative AI Applications
+                  → Production AI Agents (LangChain & LangGraph)
                 </li>
 
                 <li>
-                  → LLM & RAG Systems
+                  → Model Context Protocol (MCP)
                 </li>
 
                 <li>
-                  → AI Agents
+                  → FastAPI & AI Backend Systems
                 </li>
 
                 <li>
-                  → Scalable Full Stack Systems
+                  → AWS EC2 Deployment for AI Applications
                 </li>
 
 
@@ -295,13 +300,14 @@ const AIDashboard = () => {
 
               <div
                 key={category}
-                className="
+                className={`
                 bg-white/5
                 rounded-2xl
                 p-6
                 border
                 border-white/10
-                "
+                ${category === "Frontend" ? "opacity-60" : ""}
+                `}
               >
 
 

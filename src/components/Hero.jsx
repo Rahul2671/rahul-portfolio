@@ -59,13 +59,21 @@ const Hero = () => {
             </span>
           </h1>
 
+          <p
+            data-aos="fade-up"
+            data-aos-delay="150"
+            className="text-white text-base md:text-xl font-bold mb-3 max-w-lg drop-shadow-md"
+          >
+            Full Stack Developer | Aspiring Data Scientist | AI & Machine Learning Developer
+          </p>
+
           {/* Subheading */}
           <p 
             data-aos="fade-up"
             data-aos-delay="200"
             className="text-white text-sm md:text-lg font-semibold mb-8 max-w-md drop-shadow-md"
           >
-            Computer Science Engineering student at VIT Chennai with interests in Artificial Intelligence, Machine Learning, AI Engineering, Full-Stack Development, IoT Security, and Open Source Software Development.
+            Computer Science Engineering student at VIT Chennai building intelligent applications using Python, SQL, Machine Learning, FastAPI, LLMs, and Cloud Technologies to solve real-world problems.
           </p>
 
           {/* Buttons */}
@@ -75,7 +83,7 @@ const Hero = () => {
             className="flex flex-row flex-wrap items-center gap-3 w-full"
           >
             {/* Primary Button */}
-            <a href="#projects" className=" px-4 py-2 md:px-6 md:py-2  text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md">View My Work
+            <a href="#projects" className=" px-4 py-2 md:px-6 md:py-2  text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md">View My Projects
             </a>
             
             {/* Secondary Button - Glassmorphism style */}

@@ -37,15 +37,15 @@ const Footer = () => {
         <div>
 
           <p className="text-purple-400 font-bold uppercase tracking-widest text-sm">
-            AI Engineer
+            Aspiring Data Scientist
           </p>
 
           <p className="text-white/60 mt-2">
-            Full Stack Developer
+            AI & Machine Learning Developer
           </p>
 
           <p className="text-white/60">
-            Generative AI Developer
+            Backend Engineer
           </p>
 
         </div>

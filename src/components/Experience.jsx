@@ -30,8 +30,55 @@ const Experience = () => {
         "Python",
         "Software Engineering"
       ]
+    },
+
+    {
+      role: "Treasurer",
+      company: "ACM Student Chapter",
+      duration: "Oct 2025 – Present",
+      description:
+        "Managed financial operations for chapter events, coordinated reimbursements and budgeting, and organized documentation and event reports. Worked closely with faculty coordinators and student teams, contributing towards the chapter receiving the Best Chapter Award through operational excellence and event management.",
+      skills: [
+        "Financial Management",
+        "Event Coordination",
+        "Leadership",
+        "Documentation",
+        "Team Collaboration"
+      ]
     }
 
+  ];
+
+  const achievements = [
+    {
+      title: "Best Chapter Award",
+      detail: "Contributed to the ACM Student Chapter receiving the Best Chapter Award through operational excellence."
+    },
+    {
+      title: "SRIP AI Internship",
+      detail: "Completed the Summer Research Internship Programme focused on AI-based authenticity verification research."
+    },
+    {
+      title: "IIT Bombay Scilab Internship",
+      detail: "Completed open-source internship at IIT Bombay working on hyperparameter optimization in the FOSSEE Toolbox."
+    }
+  ];
+
+  const certificationGroups = [
+    {
+      category: "Internship & Research",
+      items: [
+        "SRIP — Summer Research Internship Programme (2025)",
+        "FOSSEE Internship — IIT Bombay (2025)"
+      ]
+    },
+    {
+      category: "Technical",
+      items: [
+        "MongoDB Introduction",
+        "Case Study Completion"
+      ]
+    }
   ];
 
 
@@ -188,6 +235,160 @@ const Experience = () => {
 
             </div>
 
+
+
+          </div>
+
+
+        ))}
+
+
+        </div>
+
+
+
+        <h2
+          className="
+          text-5xl
+          md:text-6xl
+          font-black
+          mb-12
+          mt-24
+          "
+        >
+
+          Achievements
+
+        </h2>
+
+
+
+        <div className="grid md:grid-cols-2 gap-6">
+
+
+        {achievements.map((item,index)=>(
+
+
+          <div
+            key={index}
+            className="
+            border
+            border-purple-500/30
+            rounded-3xl
+            p-8
+            bg-white/5
+            backdrop-blur
+            hover:border-purple-400
+            transition
+            "
+          >
+
+
+            <h3
+              className="
+              text-2xl
+              font-black
+              text-purple-400
+              mb-3
+              "
+            >
+
+              {item.title}
+
+            </h3>
+
+
+            <p className="text-gray-300 leading-relaxed">
+
+              {item.detail}
+
+            </p>
+
+
+          </div>
+
+
+        ))}
+
+
+        </div>
+
+
+
+        <h2
+          className="
+          text-5xl
+          md:text-6xl
+          font-black
+          mb-12
+          mt-24
+          "
+        >
+
+          Certifications
+
+        </h2>
+
+
+
+        <div className="space-y-8">
+
+
+        {certificationGroups.map((group,index)=>(
+
+
+          <div
+            key={index}
+            className="
+            border
+            border-purple-500/30
+            rounded-3xl
+            p-8
+            bg-white/5
+            backdrop-blur
+            "
+          >
+
+
+            <h3
+              className="
+              text-2xl
+              font-black
+              text-purple-400
+              mb-6
+              "
+            >
+
+              {group.category}
+
+            </h3>
+
+
+
+            <div className="flex flex-wrap gap-3">
+
+              {group.items.map(item=>(
+
+                <span
+                  key={item}
+                  className="
+                  px-4
+                  py-2
+                  rounded-full
+                  bg-purple-600/20
+                  border
+                  border-purple-400/30
+                  text-sm
+                  "
+                >
+
+                  {item}
+
+                </span>
+
+              ))}
+
+            </div>
 
 
           </div>

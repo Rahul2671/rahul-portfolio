@@ -4,6 +4,90 @@ import { useParams, Link } from "react-router-dom";
 
 const projectData = {
 
+"pinit": {
+
+title: "PinIt",
+
+year: "2026",
+
+stack:
+"React | Node.js | Express | PostgreSQL | JWT | REST API",
+
+problem:
+"Campus communities lack a centralized platform for sharing notices, finding teammates, and staying updated on relevant events.",
+
+solution:
+"Built a full-stack community notice board with smart notifications, keyword subscriptions, team finder, and secure JWT-based authentication.",
+
+impact:
+"Improves community engagement through personalized alerts and structured notice management."
+
+},
+
+
+"devforge-ai": {
+
+title: "DevForge AI",
+
+year: "2026",
+
+stack:
+"Python | FastAPI | Gemini API | LLM Applications",
+
+problem:
+"Developers spend significant time on repetitive coding tasks and project setup workflows.",
+
+solution:
+"Developed an AI-powered developer productivity platform with FastAPI backend and LLM integrations to automate development workflows.",
+
+impact:
+"Accelerates developer productivity through intelligent AI-assisted tooling and backend automation."
+
+},
+
+
+"trustpay": {
+
+title: "TrustPay",
+
+year: "2025",
+
+stack:
+"Python | FastAPI | PostgreSQL | REST APIs",
+
+problem:
+"Secure and reliable payment processing requires robust backend systems with proper transaction validation.",
+
+solution:
+"Designed a secure payment platform with backend APIs for transaction processing, user verification, and financial data management.",
+
+impact:
+"Delivers reliable payment workflows with secure backend architecture and data integrity."
+
+},
+
+
+"bharatverse": {
+
+title: "BharatVerse",
+
+year: "2025",
+
+stack:
+"Python | Gemini API | Streamlit | PostgreSQL",
+
+problem:
+"Cultural heritage content is often fragmented and difficult to discover, preserve, and share digitally.",
+
+solution:
+"Built an AI-powered cultural heritage platform enabling communities to preserve, discover, and share traditions through intelligent content processing.",
+
+impact:
+"Combines AI and analytics to support digital preservation of India's cultural heritage."
+
+},
+
+
 "context-drift-validator": {
 
 title: "Context Drift Validator",
@@ -68,30 +152,6 @@ solution:
 
 impact:
 "Provides scalable and efficient intelligent security solutions."
-
-},
-
-
-
-"ai-powered-dao": {
-
-title:
-"AI Powered DAO for Decentralized Talent Funding",
-
-year:
-"2025",
-
-stack:
-"AI | Blockchain | Web3",
-
-problem:
-"Traditional talent funding systems lack decentralized intelligent decision making.",
-
-solution:
-"Explored AI driven DAO concepts for decentralized talent support ecosystems.",
-
-impact:
-"Combines AI intelligence with decentralized platforms."
 
 },
 

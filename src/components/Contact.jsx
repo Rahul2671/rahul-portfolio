@@ -51,8 +51,9 @@ const Contact = () => {
             </h2>
 
             <p className="mt-6 text-lg text-purple-100 max-w-2xl">
-              Interested in AI, full-stack development, research projects,
-              or innovative software solutions? Feel free to connect with me.
+              I am interested in opportunities related to Data Science,
+              Machine Learning, Artificial Intelligence, and Backend Engineering.
+              Feel free to connect with me.
             </p>
 
           </div>
