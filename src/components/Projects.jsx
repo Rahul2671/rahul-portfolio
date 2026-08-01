@@ -13,6 +13,8 @@ const Projects = () => {
         "React, Node.js, Express, PostgreSQL, JWT",
       impact:
         "Streamlines community communication with data-driven engagement and personalized alerts.",
+      github:
+        "https://github.com/Rahul2671/PinIt",
       slug: "pinit"
     },
 
@@ -25,6 +27,8 @@ const Projects = () => {
         "Python, FastAPI, RAG, Gemini API, LangChain, LLM Applications",
       impact:
         "Enhances developer productivity through intelligent automation and AI-assisted tooling.",
+      github:
+        "https://github.com/Rahul2671/AI-Developer-Copilot-Agent",
       slug: "codesense"
     },
 
@@ -37,6 +41,8 @@ const Projects = () => {
         "Python, XGBoost, Random Forest, FastAPI, PostgreSQL, REST APIs",
       impact:
         "Delivers reliable payment workflows with secure backend architecture and data integrity.",
+      github:
+        "https://github.com/Rahul2671/TrustPay",
       slug: "trustpay"
     },
 
@@ -44,11 +50,13 @@ const Projects = () => {
       year: "2025",
       title: "BharatVerse",
       description:
-        "Collaborated in a multidisciplinary team to build an AI-powered platform leveraging Gemini APIs for intelligent cultural knowledge retrieval, semantic search, and content processing. Contributed to frontend development and AI integration.",
+        "Collaborated in a multidisciplinary team to build an interactive Digital Twin dashboard for real-time visualization of national AI insights, city analytics, and decision-support systems. Contributed to frontend development and AI integration.",
       stack:
-        "React, Python, Gemini API, Streamlit, PostgreSQL",
+        "React, Python, Gemini API, Tailwind CSS, PostgreSQL",
       impact:
-        "Combines AI and analytics to support digital preservation of cultural heritage.",
+        "Developed a scalable frontend and integrated backend APIs to enable unified monitoring of critical national systems.",
+      :
+        "https://.com/n-j-m06/BharatVerse",
       slug: "bharatverse"
     },
 
@@ -56,11 +64,14 @@ const Projects = () => {
       year: "2026",
       title: "Context Drift Validator",
       description:
-        "Built a validation framework to identify context inconsistencies in Zero Trust IoT security systems.",
+        "Contributed to the Context Drift Validator for the Zero Trust IoT Library, enabling continuous trust validation for secure IoT network simulations.",
       stack:
-        "NS3, C++, Git",
+        "NS3, C++, Zero Trust Architecture, Git, Linux",
       impact:
-        "Improves reliability of security workflows in intelligent networks.",
+        "Open-source contribution released through the official ns-3 app store, supporting secure IoT research and improves reliability of security workflows in intelligent networks.",
+      website: "https://apps.nsnam.org/app/zero-trust-iot/",
+      github:
+        "https://github.com/Rahul2671/zero-trust-iot",
       slug: "context-drift-validator"
     },
 
@@ -72,7 +83,7 @@ const Projects = () => {
       stack:
         "Python, Machine Learning, AI",
       impact:
-        "Research-oriented solution combining AI with digital heritage preservation.",
+        "Research contribution supporting three patent filings in AI-driven cultural heritage preservation.",
       slug: "authenticity-verification-system"
     },
 
@@ -84,7 +95,7 @@ const Projects = () => {
       stack:
         "Python, Machine Learning, IoT Security",
       impact:
-        "Focused on scalable and efficient intelligent security solutions.",
+        "Focused on scalable and efficient intelligent security solutions supporting a journal filling",
       slug: "iot-security-framework"
     },
 
@@ -247,9 +258,33 @@ const Projects = () => {
                 <p className="text-gray-700 mb-6">
                   {project.description}
                 </p>
-
-
-
+                
+                <div className="flex flex-wrap gap-4 mb-6">
+                
+                  {project.website && (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-500 underline hover:text-purple-700"
+                    >
+                      Official Project Website →
+                    </a>
+                  )}
+                
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-500 underline hover:text-purple-700"
+                    >
+                      GitHub Repository →
+                    </a>
+                  )}
+                
+                </div>
+                
                 <div className="space-y-3">
 
 
