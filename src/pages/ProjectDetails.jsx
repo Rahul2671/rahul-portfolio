@@ -25,9 +25,9 @@ impact:
 },
 
 
-"devforge-ai": {
+"codesense": {
 
-title: "DevForge AI",
+title: "CodeSense",
 
 year: "2026",
 
