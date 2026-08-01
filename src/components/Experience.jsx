@@ -8,7 +8,7 @@ const Experience = () => {
       company: "IIT Bombay",
       duration: "1 Month",
       description:
-        "Completed an internship focused on Scilab-based computational tools, hyparameter optimization, programming concepts, and technical development workflows.",
+        "Completed an internship focused on Scilab-based computational tools, hyperparameter optimization, programming concepts, and technical development workflows.",
       proofLink: "https://scilab.in/case-study-project/completed-case-studies",
       skills: [
         "Scilab",
