@@ -18,7 +18,7 @@ const Projects = () => {
 
     {
       year: "2026",
-      title: "DevForge AI",
+      title: "CodeSense",
       description:
         "Collaborated in a 2-member team to build an AI-powered developer platform that lets users upload GitHub repositories and chat with the entire codebase using RAG and LLMs. Contributed to the FastAPI backend, REST APIs, and AI service integration.",
       stack:
