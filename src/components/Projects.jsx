@@ -25,7 +25,7 @@ const Projects = () => {
         "Python, FastAPI, RAG, Gemini API, LangChain, LLM Applications",
       impact:
         "Enhances developer productivity through intelligent automation and AI-assisted tooling.",
-      slug: "devforge-ai"
+      slug: "codesense"
     },
 
     {
