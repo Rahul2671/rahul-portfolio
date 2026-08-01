@@ -289,14 +289,16 @@ const Projects = () => {
                   )}
                 
                   {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-purple-500 underline hover:text-purple-700"
-                    >
-                      GitHub Repository →
-                    </a>
+                    <div className="mt-4">
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-semibold text-purple-600 underline hover:text-purple-800"
+                      >
+                        GitHub Repository →
+                      </a>
+                    </div>
                   )}
                 
                 </div>
