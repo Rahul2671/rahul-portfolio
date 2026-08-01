@@ -55,7 +55,7 @@ const Projects = () => {
         "React, Python, Gemini API, Tailwind CSS, PostgreSQL",
       impact:
         "Developed a scalable frontend and integrated backend APIs to enable unified monitoring of critical national systems.",
-      :
+      github:
         "https://.com/n-j-m06/BharatVerse",
       slug: "bharatverse"
     },
