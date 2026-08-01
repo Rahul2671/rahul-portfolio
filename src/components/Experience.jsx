@@ -8,7 +8,8 @@ const Experience = () => {
       company: "IIT Bombay",
       duration: "1 Month",
       description:
-        "Completed an internship focused on Scilab-based computational tools, programming concepts, and technical development workflows.",
+        "Completed an internship focused on Scilab-based computational tools, hyparameter optimization, programming concepts, and technical development workflows.",
+      proofLink: "https://scilab.in/case-study-project/completed-case-studies",
       skills: [
         "Scilab",
         "Programming",
@@ -45,6 +46,22 @@ const Experience = () => {
         "Documentation",
         "Team Collaboration"
       ]
+    },
+
+    {
+      role: "Incoming Co-Chair",
+      company: "ACM Student Chapter",
+      duration: "2026 – Present",
+      description:
+        "Appointed as the Incoming Co-Chair after serving as Treasurer, recognizing my contributions to chapter operations, financial management, event coordination, and leadership. Responsible for leading strategic planning, mentoring student teams, coordinating flagship events, and driving chapter growth in the upcoming tenure.",
+      skills: [
+        "Leadership",
+        "Strategic Planning",
+        "Team Management",
+        "Event Management",
+        "Mentoring",
+        "Community Building"
+      ]
     }
 
   ];
@@ -76,7 +93,7 @@ const Experience = () => {
       category: "Technical",
       items: [
         "MongoDB Introduction",
-        "Case Study Completion"
+        "Case Study Completion in Scilab from IITB FOSSEE",
       ]
     }
   ];
@@ -200,7 +217,16 @@ const Experience = () => {
 
             </p>
 
-
+            {exp.proofLink && (
+              <a
+                href={exp.proofLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-purple-400 hover:text-white underline"
+              >
+                View my Completed Case Study here (S.No - 31)→
+              </a>
+            )}
 
             <div
               className="
