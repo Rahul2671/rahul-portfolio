@@ -266,9 +266,25 @@ const Projects = () => {
                       href={project.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-purple-500 underline hover:text-purple-700"
+                      className="
+                        inline-flex
+                        items-center
+                        mt-5
+                        px-5
+                        py-3
+                        rounded-xl
+                        bg-purple-600
+                        text-white
+                        font-semibold
+                        text-lg
+                        shadow-lg
+                        hover:bg-purple-700
+                        hover:scale-105
+                        transition-all
+                        duration-300
+                      "
                     >
-                      Official Project Website →
+                      🔗 Official Project Website
                     </a>
                   )}
                 
