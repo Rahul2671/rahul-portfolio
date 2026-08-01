@@ -222,7 +222,22 @@ const Experience = () => {
                 href={exp.proofLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-3 text-purple-400 hover:text-white underline"
+                className="
+                inline-flex
+                items-center
+                mt-5
+                px-5
+                py-3
+                rounded-xl
+                bg-purple-600
+                text-white
+                font-semibold
+                text-lg
+                shadow-lg
+                hover:bg-purple-700
+                transition-all
+                duration-300
+                "
               >
                 View my Completed Case Study here (S.No - 31)→
               </a>
